@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jesve.loginsqlite.UserSignUp"
+    android:background="@drawable/lake"
+    android:fitsSystemWindows="true">
+
+    <!-- Button - Help -->
+    <Button
+        android:id="@+id/btn_help_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/ButtonHelp"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorWhite"
+        android:paddingBottom="30dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="36dp">
+
+        <!-- Button - Save -->
+        <Button
+            android:id="@+id/btn_save_signup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/colorButtonLogIn"
+            android:text="@string/ButtonSave"
+            android:textColor="@color/colorWhite" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="330dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Text - Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtName"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Name -->
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtName"
+                    android:inputType="textCapSentences"
+                    android:textSize="15sp" />
+
+                <!-- Text - Surname -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtSurname"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Surname -->
+                <EditText
+                    android:id="@+id/et_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtSurname"
+                    android:inputType="textCapSentences"
+                    android:textSize="15sp" />
+
+                <!-- Text - E-mail -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/email"
+                    android:textSize="15sp" />
+
+                <!-- EditText - E-mail -->
+                <EditText
+                    android:id="@+id/et_email_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtEmail"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15sp" />
+
+                <!-- Text - Password -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/password"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Password -->
+                <EditText
+                    android:id="@+id/et_password_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtPassword"
+                    android:inputType="textPassword"
+                    android:textSize="15sp" />
+
+                <!-- Text - Phone Number -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/phone"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Phone number -->
+                <EditText
+                    android:id="@+id/et_phone_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtPhone"
+                    android:inputType="phone"
+                    android:textSize="15sp" />
+
+                <!-- Text - Nationality -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/nationality"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Nationality -->
+                <EditText
+                    android:id="@+id/et_nationality_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtNationality"
+                    android:inputType="textCapSentences"
+                    android:textSize="15sp" />
+
+                <!-- Text - Profession -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/profession"
+                    android:textSize="15sp" />
+
+                <!-- EditText - Profession -->
+                <EditText
+                    android:id="@+id/et_profession_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edtProfession"
+                    android:inputType="textCapSentences"
+                    android:textSize="15sp" />
+
+                <!-- Text - What do you like to do? -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/question"
+                    android:textSize="15sp" />
+
+                <!-- EditText - What do you like to do? -->
+                <EditText
+                    android:id="@+id/et_liking_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/liking"
+                    android:inputType="textCapSentences"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

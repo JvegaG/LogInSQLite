@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LogInSQLite</string>
+    <!-- variables that will be using in The Layouts-->
+    <string name="ButtonHelp">help</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="ButtonLogIn">Log In</string>
+    <string name="ButtonSignUp">Sign Up</string>
+    <string name="ButtonSave">Save</string>
+    <string name="txtName">Name</string>
+    <string name="edtName">Enter your Name</string>
+    <string name="txtSurname">Surname</string>
+    <string name="edtSurname">Enter your Surname</string>
+    <string name="edtEmail">Enter your E-mail</string>
+    <string name="edtPassword">Enter your Password</string>
+    <string name="phone">Phone or Cellphone</string>
+    <string name="edtPhone">Enter your phone number</string>
+    <string name="nationality">Nationality</string>
+    <string name="edtNationality">Enter your Nationality</string>
+    <string name="profession">Profession</string>
+    <string name="edtProfession">Enter your profession</string>
+    <string name="question">What do you like to do?</string>
+    <string name="liking">Enter a Liking</string>
+    <string name="Liking">Liking</string>
+    <string name="profile"><u>User's Profile</u></string>
+
+</resources>

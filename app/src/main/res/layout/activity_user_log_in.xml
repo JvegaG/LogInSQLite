@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jesve.loginsqlite.UserLogIn"
+    android:background="@drawable/lake"
+    android:fitsSystemWindows="true">
+
+    <!-- Button Help-->
+    <Button
+        android:id="@+id/btn_help_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonHelp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+    
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true">
+
+        <!-- EditText - E-mail -->
+        <EditText
+            android:id="@+id/et_email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_centerInParent="true"/>
+
+        <!-- EditText - Password -->
+        <EditText
+            android:id="@+id/et_password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_below="@id/et_email_login"
+            android:paddingTop="20dp"/>
+
+        <!-- Button - LogIn -->
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/et_password_login"
+            android:text="@string/ButtonLogIn"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorButtonLogIn"/>
+
+        <!-- Button Sign Up-->
+        <Button
+            android:id="@+id/btn_signup_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/btn_login_login"
+            android:text="@string/ButtonSignUp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:backgroundTint="@color/colorButtonSignUp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
