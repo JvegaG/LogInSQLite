@@ -22,6 +22,6 @@
     <string name="question">What do you like to do?</string>
     <string name="liking">Enter a Liking</string>
     <string name="Liking">Liking</string>
-    <string name="profile"><u>User's Profile</u></string>
+    <string name="profile"><u>Profile</u></string>
 
 </resources>
